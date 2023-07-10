@@ -1,1 +1,1 @@
-This the root dir for my bash projects
+Dir about shell permission in detail
