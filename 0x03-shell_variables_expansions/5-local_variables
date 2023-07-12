@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "Local Variables:\n$(declare -p | grep -oP '\w+(?==)')\nEnvironment Variables:\n$(printenv | cut -d= -f1)\nFunctions:\n$(compgen -A function)"
+echo -e "Local Variables:\n$(declare -p
