@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -p | grep -E 'declare\ \-\w+[[:space:]]+\w+=' | cut -d' ' -f3-
+echo -e "Local Variables:\n$(declare -p | grep -oP '\w+(?==)')\nEnvironment Variables:\n$(printenv | cut -d= -f1)\nFunctions:\n$(compgen -A function)"
