@@ -1,0 +1,2 @@
+#!/bin/bash
+declare -p | grep -E 'declare\ \-\w+[[:space:]]+\w+=' | cut -d' ' -f3-
