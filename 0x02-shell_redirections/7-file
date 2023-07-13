@@ -1,2 +1,2 @@
 #!/bin/bash
-echo  "Hello User\n" > '\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
+echo -e "Hello User\n" > '*\\'"Best School"\'\\*$\?\*\*\*\*\*:'
